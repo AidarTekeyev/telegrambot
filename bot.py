@@ -11,7 +11,7 @@ bot = Bot(token='YOUR_BOT_TOKEN')
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 # Подключение к базе данных SQLite
-db = sqlite3.connect('todo.db')
+db = sqlite3.connect('YOUR_DATABASE_FILE.db')
 cursor = db.cursor()
 
 # Создание таблицы задач, если она не существует
