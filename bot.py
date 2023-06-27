@@ -7,7 +7,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 logging.basicConfig(level=logging.INFO)
 
 # Инициализация бота и диспетчера
-bot = Bot(token='6044377942:AAHI3LvbE5O4CX_Lx0-9PGk3r58RliOh6yk')
+bot = Bot(token='YOUR_BOT_TOKEN')
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 # Подключение к базе данных SQLite
