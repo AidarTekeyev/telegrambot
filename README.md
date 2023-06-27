@@ -18,7 +18,6 @@
 Откройте файл bot.py и выполните следующие настройки:
 
 Введите токен вашего бота, заменив 'YOUR_BOT_TOKEN' в строке bot = Bot(token='YOUR_BOT_TOKEN').
-Укажите путь к файлу базы данных SQLite, заменив 'YOUR_DATABASE_FILE.db' в строке DB_PATH = 'YOUR_DATABASE_FILE.db'.
 
 1.3. Команды и функции-обработчики
 
